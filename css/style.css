@@ -50,14 +50,17 @@ a:hover {
     margin: 0;
     text-align: start;
     height: 75%;
+    flex: 1;
 }
 
 .sarah {
     display: block;
-    width: 250px;
+    width: 100%;
     object-fit: cover;
     border-radius: 10px;
+    flex: 1;
 }
+
 
 .sarah2 {
     display: block;
@@ -124,3 +127,4 @@ footer {
     padding: 20px;
 
 }
+
