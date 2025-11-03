@@ -56,9 +56,7 @@ a:hover {
     display: block;
     width: 250px;
     object-fit: cover;
-    border: solid 3px black;
     border-radius: 10px;
-    transform: rotate(-90deg);
 }
 
 .sarah2 {
@@ -124,4 +122,5 @@ footer {
     background-color: #432818;
     color: #ffe6a7;
     padding: 20px;
+
 }
