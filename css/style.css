@@ -21,6 +21,7 @@ body {
 header {
     color: #ffe6a7;
     padding: 20px;
+    height: 70px;
 }
 
 main {
@@ -45,22 +46,33 @@ a:hover {
     transform: scale(1.4);
 }
 
+.sarah-nav {
+    width: 20vw;
+    padding-left: 60vw;
+    transform: translateY(-21%);
+}
+
 .p1 {
     width: 32vw;
     margin: 0;
     text-align: start;
     height: 75%;
-    flex: 1;
+}
+
+.hardware-img {
+    display: block;
+    width: 250px;
+    object-fit: cover;
+    border: solid 3px black;
+    border-radius: 10px;
 }
 
 .sarah {
     display: block;
-    width: 100%;
+    width: 30vw;
     object-fit: cover;
     border-radius: 10px;
-    flex: 1;
 }
-
 
 .sarah2 {
     display: block;
@@ -74,8 +86,7 @@ a:hover {
 .div-row {
     display: flex;
     flex-direction: row;
-    padding: 20px 15vw;
-    gap: 50px;
+    padding: 20px 0vw;
     align-items: center;
 }
 
@@ -125,6 +136,38 @@ footer {
     background-color: #432818;
     color: #ffe6a7;
     padding: 20px;
-
 }
 
+.technologie-introduction {
+    width: 100%;
+    padding: 20px 0;
+}
+
+.technologie-introduction-text {
+    max-width: 50vw;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+.hardware-box {
+    display: flex;
+    width: 60vw;
+}
+
+.hardware-section {
+    width: 100%;
+    padding: 20px 0;
+    background-color: #bb9457;
+}
+
+.hardware-p {
+    background-color: #432818;
+    color: #ffe6a7;
+    padding: 20px;
+    margin: 20px;
+    border: solid 3px black;
+    border-radius: 20px;
+}
