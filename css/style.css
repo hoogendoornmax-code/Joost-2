@@ -46,9 +46,12 @@ a:hover {
     transform: scale(1.4);
 }
 
+.empty-element {
+    flex: 1;
+}
+
 .sarah-nav {
-    width: 20vw;
-    padding-left: 60vw;
+    width: 300px;
     transform: translateY(-8vh);
 }
 
