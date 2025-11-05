@@ -115,6 +115,7 @@ section {
 
 .header-box {
   width: 100%;
+  padding: 20px;
   background-color: #432818;
 }
 
@@ -300,5 +301,6 @@ textarea {
     height: fit-content;
   }
 }
+
 
 
