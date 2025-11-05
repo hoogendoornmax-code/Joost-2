@@ -21,7 +21,7 @@ body {
 header {
     color: #ffe6a7;
     padding: 20px;
-    height: 70px;
+    height: 14vh;
 }
 
 main {
@@ -51,8 +51,8 @@ a:hover {
 }
 
 .sarah-nav {
-    width: 300px;
-    transform: translateY(-8vh);
+    height: 40vh;
+    transform: translateY(-9vh);
 }
 
 .p1 {
@@ -151,7 +151,8 @@ footer {
 }
 
 
-h1 {
+h1,
+h2 {
     text-align: center;
 }
 
@@ -173,4 +174,108 @@ h1 {
     margin: 20px;
     border: solid 3px black;
     border-radius: 20px;
+}
+
+.p2 {
+    width: 50vw;
+    margin: 0;
+    text-align: start;
+    height: 75%;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #bb9457;
+}
+
+.form-box {
+    align-items: baseline;
+    border: 3px solid black;
+    margin: 50px;
+    padding: 20px 0;
+    background-color: #432818;
+    color: #ffe6a7;
+    width: 50vw;
+}
+
+.main-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.form-2 {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    flex: 1;
+    padding: 10px;
+}
+
+
+.radio {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.radio-2 {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.checkbox {
+    display: flex;
+    flex-direction: row;
+}
+
+input {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.button {
+    background-color: #bb9457;
+    color: #432818;
+}
+
+textarea {
+    max-width: 100%;
+}
+
+/* Nathan*/
+* {
+    box-sizing: border-box;
+}
+
+.quickstart {
+    margin: 50px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.quickstartSect {
+    width: 90vw;
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #ffe6a7;
+    background-color: #432818;
+    border-radius: 10px;
+}
+
+.quickstartSect img {
+    width: 100%;
+    margin: 10px;
 }
