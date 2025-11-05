@@ -35,6 +35,11 @@ nav {
     align-items: start;
 }
 
+.nav-a-box {
+    display: flex;
+    flex: 1;
+}
+
 a {
     transition-duration: 0.5s;
     padding: 20px;
