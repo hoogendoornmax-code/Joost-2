@@ -176,79 +176,77 @@ h1 {
 }
 
 .p2 {
-    width: 50vw;
-    margin: 0;
-    text-align: start;
-    height: 75%;
+  width: 50vw;
+  margin: 0;
+  text-align: start;
+  height: 75%;
 }
 
 form {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    background-color: #bb9457;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #bb9457;
 }
 
 .form-box {
-    align-items: baseline;
-    border: 3px solid black;
-    margin: 50px;
-    padding: 20px 0;
-    background-color: #432818;
-    color: #ffe6a7;
-    width: 50vw;
+  align-items: baseline;
+  border: 3px solid black;
+  margin: 50px;
+  padding: 20px 0;
+  background-color: #432818;
+  color: #ffe6a7;
+  width: 50vw;
 }
 
 .main-contact {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .form-1 {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .form-2 {
-    display: flex;
-    flex-direction: column;
-    margin: 10px;
-    flex: 1;
-    padding: 10px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  flex: 1;
+  padding: 10px;
 }
 
-
 .radio {
-    display: flex;
-    flex-direction: row;
-
+  display: flex;
+  flex-direction: row;
 }
 
 .radio-2 {
-    display: flex;
-    flex-direction: row;
-    padding: 10px;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
 }
 
 .checkbox {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 input {
-    padding: 5px;
-    border-radius: 5px;
+  padding: 5px;
+  border-radius: 5px;
 }
 
 .button {
-    background-color: #bb9457;
-    color: #432818;
+  background-color: #bb9457;
+  color: #432818;
 }
 
 textarea {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 /* Nathan's code */
@@ -284,6 +282,24 @@ textarea {
   .sarah-nav {
     display: none;
   }
+  .p1 {
+    width: auto;
+  }
+
+  .tech-box {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .div-fase {
+    width: 100%;
+  }
+  .sarah {
+    width: 100%;
+  }
+  .div-row {
+    flex-direction: column-reverse;
+    gap: 50px;
+  }
   nav {
     justify-content: center;
     text-align: center;
@@ -301,6 +317,3 @@ textarea {
     height: fit-content;
   }
 }
-
-
-
