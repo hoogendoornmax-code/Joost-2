@@ -316,4 +316,15 @@ textarea {
   header {
     height: fit-content;
   }
+  .hardware-box {
+    width: 100%;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+  .technologie-introduction-text {
+    max-width: 90%;
+  }
+  .hardware-img {
+    width: 90%;
+  }
 }
