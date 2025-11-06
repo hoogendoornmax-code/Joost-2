@@ -342,4 +342,7 @@ textarea {
   form input {
     padding: 20px;
   }
+  .form-1 {
+    flex-direction: column;
+  }
 }
