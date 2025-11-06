@@ -345,4 +345,7 @@ textarea {
   .form-1 {
     flex-direction: column;
   }
+  .p2 {
+    width: 90vw;
+  }
 }
